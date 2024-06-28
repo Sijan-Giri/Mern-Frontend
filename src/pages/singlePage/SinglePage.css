@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  .container {
+    padding: 20px;
+  }
+  .image-container {
+    width: 100%;
+    height:55vh;
+    overflow: hidden;
+  }
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .content {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -35px;
+  }
+  .content h2 {
+    font-size: 28px;
+    margin: 20px 0;
+  }
+  .content p {
+    font-size: 16px;
+    color: #555;
+  }
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .buttons .edit {
+    background-color: #007bff;
+    color: white;
+  }
+  .buttons .delete {
+    background-color: #dc3545;
+    color: white;
+  }
